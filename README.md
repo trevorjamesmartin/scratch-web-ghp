@@ -1,2 +1,5 @@
 # debauchery1st.github.io
-pages
+
+webs
+
+https://debauchery1st.github.io/
