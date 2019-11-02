@@ -53,6 +53,16 @@ img.item-image {
     border-radius: 7px;
 }
 
+img.item-image-wide {
+    width: 99%;
+    border-radius: 7px;
+    padding: 20px 0 20px 0;
+}
+
+img.margin-left {
+    margin-left: 20px;
+}
+
 .car-cdr {
     display: flex;
 }
