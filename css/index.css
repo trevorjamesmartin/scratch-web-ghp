@@ -48,22 +48,29 @@ img.img-jumbo-404 {
 }
 
 img.item-image {
-    width: 45%;
+    width: 50%;
+    margin-right: 20px;
+    border-radius: 7px;
 }
 
 .car-cdr {
     display: flex;
 }
 
+.car-cdr .vertical-flow {
+    flex-direction: column;
+}
+
 .car-cdr .text-container {
-    padding: 20px;
+    padding: 0px;
 }
 .middle-content {
     padding: 20px 0;
+    border-top: 1px dashed darkslategrey;
+    border-bottom: 1px dashed darkslategrey;
 }
 .bottom-content{
-    padding-top: 20px;
-    border-top: 1px dashed darkslategrey;
+    padding: 20px 0;
 }
 .bottom-content .text-container {
     font-size: 12px;
