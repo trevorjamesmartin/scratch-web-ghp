@@ -12,9 +12,15 @@ header nav {
     padding: 20px 2%;
     font-size: 14pt;
 }
+
 header nav a {
     text-decoration: none;
+    color: darkslategrey;
     letter-spacing: 2px;
+}
+
+header nav a:hover{
+    font-weight: bold;
 }
 
 .container {
@@ -27,11 +33,34 @@ h1 {
 }
 
 h2 {
-    font-size: 24pt;
+    font-size: 16pt;
 }
 
 img.img-jumbo {
     width: 100%;
     height: 200px;
     border-radius: 7px;
+    margin-top: 20px;
+}
+
+img.item-image {
+    width: 45%;
+}
+
+.car-cdr {
+    display: flex;
+}
+
+.car-cdr .text-container {
+    padding: 20px;
+}
+.middle-content {
+    padding: 20px 0;
+}
+.bottom-content{
+    padding-top: 20px;
+    border-top: 1px dashed darkslategrey;
+}
+.bottom-content .text-container {
+    font-size: 12px;
 }
