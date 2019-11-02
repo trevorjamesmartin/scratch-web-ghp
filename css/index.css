@@ -3,7 +3,9 @@
 * {
     font-family: 'Nanum Gothic', sans-serif;
 }
-
+p {
+    font-size: 12pt;
+}
 header nav {
     width: 60%;
     display: flex;
@@ -29,11 +31,11 @@ header nav a:hover{
 }
 
 h1 {
-    font-size: 32pt;
+    font-size: 24pt;
 }
 
 h2 {
-    font-size: 16pt;
+    font-size: 18pt;
 }
 
 img.img-jumbo {
