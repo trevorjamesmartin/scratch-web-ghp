@@ -43,6 +43,10 @@ img.img-jumbo {
     margin-top: 20px;
 }
 
+img.img-jumbo-404 {
+    width: 100%;
+}
+
 img.item-image {
     width: 45%;
 }
