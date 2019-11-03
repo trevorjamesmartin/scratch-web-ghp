@@ -1,99 +1,137 @@
-/* @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap');
-
-* {
-    font-family: 'Nanum Gothic', sans-serif;
-} */
-
 * {
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
     font-weight: 300;
- }
-
-p {
-    font-size: 12pt;
-}
-header nav {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
-    font-size: 14pt;
-}
-
-header nav a {
-    text-decoration: none;
     color: darkslategrey;
-    letter-spacing: 2px;
 }
 
-header nav a:hover{
-    font-weight: bold;
+/* images */
+.jumbo {
+  object-fit: cover;
+  object-position: 100% 0;
+  width: 800px;
+  height: 200px;
+  border-radius: 5px;
 }
 
+.jumbo-fit {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px;
+  /* margin-top: 20px; */
+}
+
+.tux-box {
+  width: 60px;
+  opacity: 51%
+}
+.tux-box:hover {
+  opacity: 65%;
+}
+.tux-box:active {
+  background: aquamarine;
+  border-radius: 32px;
+  opacity: 100%;
+}
+.tux-box-small {
+  width: 42px;
+  opacity: 51px;
+}
+
+/* generic elements*/
+h1 {
+  font-weight: bold;
+  font-size: 27px;
+}
+p {
+  font-size: 16px;
+}
+
+/* structural elements */
 .container {
     width: 800px;
     margin: 0 auto;
 }
-
-h1 {
-    font-size: 24pt;
+section {
+  margin: 20px 0;
 }
 
-h2 {
-    font-size: 18pt;
-}
-
-img.img-jumbo {
-    width: 100%;
-    height: 200px;
-    border-radius: 7px;
-    margin-top: 20px;
-}
-
-img.img-jumbo-404 {
-    width: 100%;
-}
-
-img.linux-logo {
-    width: 100px;
-    margin-right: 15px;
-}
-img.item-image {
-    width: 50%;
-    margin-right: 20px;
-    border-radius: 7px;
-}
-
-img.item-image-wide {
-    width: 99%;
-    border-radius: 7px;
-    padding: 20px 0 20px 0;
-}
-
-img.margin-left {
-    margin-left: 20px;
-}
-
-.car-cdr {
+header nav {
+    width: 600px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1% 1%;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+header nav a{
+  text-decoration: none;
+  letter-spacing: 2px;
+  padding: 10px;
+}
+header nav a:hover {
+/*   border: 1px solid darkslategrey; */
+  border-radius: 5px;
+  color: white;
+  background: #acacac;
+}
+header nav a:active {
+/*   border: 1px solid darkslategrey; */
+  color: aquamarine;
+  padding: 8px;
 }
 
-.car-cdr .vertical-flow {
-    flex-direction: column;
+.middle-content div .item-image {
+  object-fit: cover;
+  object-position: 100% 1;
+  border-radius: 20px;
+  margin: 12px 0;
+}
+.middle-content div {
+  display: flex;
+}
+.bottom-content p {
+  font-size: 12px;  
 }
 
-.car-cdr .text-container {
-    padding: 0px;
+footer {
+  width: 800px;
+  margin: 0 auto;    
 }
-.middle-content {
-    padding: 20px 0;
-    border-top: 1px dashed darkslategrey;
-    border-bottom: 1px dashed darkslategrey;
+footer nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: darkslategrey;
+  padding: 12px 24px;
+  border-radius: 5px
 }
-.bottom-content{
-    padding: 20px 0;
+footer nav a{
+  text-decoration: none;
+  color: white;
 }
-.bottom-content .text-container {
-    font-size: 12px;
+footer nav a:hover {
+  color: aquamarine;
+}
+
+/* generic flex class */
+.flex-wrap {
+  display: flex;
+  flex-wrap: wrap;
+/*   border: 1px dashed red; */
+}
+
+/* pseudo functions to call from html */
+.push-left{margin: 0 0 30px 0;}
+.push-right{margin: 0 0 0 30px;}
+.dashes-above {
+  border-top: 1px dashed grey;
+  padding-top: 20px;
+}
+.dashes-below {
+  border-bottom: 1px dashed grey;
+  padding-bottom: 20px;
+}
+.space-above {
+  padding-top: 30px;
 }
